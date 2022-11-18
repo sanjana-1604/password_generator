@@ -1,2 +1,8 @@
 # password_generator
-Generating passwords using Java script functions
+## Description
+
+Creating password generator using java script functions.
+
+
+## License
+Please refer license section for details.
