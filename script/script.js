@@ -102,6 +102,11 @@ function getPasswordOptions() {
     alert("Please click 'Generate Paswword' button to generate password. ");
     return 0;
   }
+  else if(isNaN(length))
+  {
+    alert("Please enter only numeric value for length");
+    return 0;
+  }
   else if (length < 10 || length > 64) {
     alert("Please enter length between 10-64 to get password generated. ");
     return 0;
